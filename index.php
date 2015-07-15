@@ -26,13 +26,13 @@
 <script type='text/javascript' src='http://www.mcecleanenergy.org/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?ver=3.9.1'></script>
 
 <script type='text/javascript'>
-window.activeRateFilename	= "/mce/2014/2014-05-02-rates.json";
-window.pathToUpTri			= "/mce/2014/tri_up.png";
-window.pathToDownTri		= "/mce/2014/tri_down.png";
+window.activeRateFilename	= "/2014-05-02-rates.json";
+window.pathToUpTri			= "/tri_up.png";
+window.pathToDownTri		= "/tri_down.png";
 </script>
 
-<script src="http://www.digital-cliche.com/mce/jquery.formatCurrency-1.4.0.min.js"></script>
-<script src="http://www.digital-cliche.com/mce/2014/rate-calculator.js"></script>
+<script src="/jquery.formatCurrency-1.4.0.min.js"></script>
+<script src="/rate-calculator.js"></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.mcecleanenergy.org/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.mcecleanenergy.org/wp-includes/wlwmanifest.xml" /> 
 <link rel='prev' title='Solar for My Business' href='http://www.mcecleanenergy.org/business-solar/' />

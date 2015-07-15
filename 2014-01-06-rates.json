@@ -1,0 +1,1008 @@
+  {"rates": [
+	{
+		"rate_schedule": "RES-1 / E-1",
+		"schedule_enabled": true,
+		"rate_schedule_description": "RES-1 (PG&E Equivalent E-1) is a basic rate schedule used by most residential customers. These rates do not vary depending on the time of day when electricity is used.",
+		"level_two": [
+			{
+				"PCIA": 0.01101,
+				"franchiseFee": 0.00059
+			}
+		],
+		"level_three": [
+			{
+				"rateAbrs": "Transmission,Transmission Rate Adjustment,Reliability Surcharge,Distribution,Public Purpose Programs,Nuclear Decommissioning,DWR Bond,CTC,Energy Cost Recovery Amount,NSGC",
+				"Transmission": 0.01469,
+				"Transmission Rate Adjustment": 0.00237,
+				"Reliability Surcharge": -0.00015,
+				"Distribution": 0.06896,
+				"Public Purpose Programs": 0.01333,
+				"Nuclear Decommissioning": 0.00049,
+				"DWR Bond": 0.00513,
+				"CTC": 0.00176,
+				"Energy Cost Recovery Amount": -0.00154,
+				"NSGC": 0.00342
+			}
+		],
+		"time_period_info": [
+			{
+				"time_period_group": "Summer",
+				"T1_threshold": 341,
+				"T2_threshold": 102.3,
+				"T3_threshold": 238.7,
+				"number_in_group": 1
+			},
+			{
+				"time_period_group": "Winter",
+				"T1_threshold": 362.7,
+				"T2_threshold": 108.81,
+				"T3_threshold": 253.89,
+				"number_in_group": 1
+			}
+		],
+		"time_period_rates": [
+			{
+				"time_period": "Summer",
+				"time_period_group": "Summer",
+				"primary": true,
+				"CIA_T1_rate": -0.06268,
+				"CIA_T2_rate": -0.04458,
+				"CIA_T3_rate": 0.12879,
+				"CIA_T4_rate": 0.16879,
+				"mceRate": 0.074,
+				"pgeRate": 0.08652
+			},
+			{
+				"time_period": "Winter",
+				"time_period_group": "Winter",
+				"CIA_T1_rate": -0.06131,
+				"CIA_T2_rate": -0.04321,
+				"CIA_T3_rate": 0.12555,
+				"CIA_T4_rate": 0.16555,
+				"mceRate": 0.074,
+				"pgeRate": 0.08652
+			}
+		],
+		"descriptions": [
+			{
+				"Summer_mceRate_description": "Your MCE Generation Rate is your cost for actual generation of electricity, based on MCE's current generation rate of {data} per kilowatt-hour. This rate replaces what PG&E would otherwise charge for generation.",
+				"Winter_mceRate_description": "Your MCE Generation Rate is your cost for actual generation of electricity, based on MCE's current generation rate of {data} per kilowatt-hour. This rate replaces what PG&E would otherwise charge for generation.",
+				"Summer_pgeRate_description": "The PG&E Generation Rate is what a standard PG&E customer pays for generation, as a portion of their overall rates. The current generation rate is {data} per kilowatt-hour.",
+				"Winter_pgeRate_description": "The PG&E Generation Rate is what a standard PG&E customer pays for generation, as a portion of their overall rates. The current generation rate is {data} per kilowatt-hour.",
+				"PCIA_description": "<strong>The Power Charge Indifference Adjustment</strong> is a PG&E-assessed fee which ensures that customers who purchase electricity (generation) from non-PG&E suppliers pay their share of generation costs acquired to serve them prior to their departure, unless otherwise exempt. Calculated by multiplying usage by {data}.",
+				"franchiseFee_description": "<strong>Franchise Fee</strong>: This surcharge pays cities and counties for the right to use public streets to provide utility services. PG&E collects the surcharges and passes them to cities and counties. This tax (if any) is charged as a percentage of your energy charges. Most government agencies are exempt from this fee. Calculated by multiplying usage by {data}.",
+				"CIA_T1_description": "<strong>CIA T1:</strong> Is calculated by the following formula: <br />{CIA_Formula}",
+				"CIA_T2_description": "<strong>CIA T2:</strong> Is calculated by the following formula: <br />{CIA_Formula}",
+				"CIA_T3_description": "<strong>CIA T3:</strong> Is calculated by the following formula: <br />{CIA_Formula}",
+				"CIA_T4_description": "<strong>Conservation Incentive Adjustment</strong>: A PG&E component of your electric charges designed to reflect tiered residential pricing. Customers with low energy usage will typically see a credit, while customers with higher tier usage will be assessed a surcharge.<span class=\"info-arrow\"></span>",
+				"Transmission_description": "<strong>Transmission:</strong> The cost of transmitting electricity from power plants, over high-voltage lines and towers, to the distribution system. Calculated by multiplying usage by {data}.",
+				"Transmission Rate Adjustment_description": "<strong>Transmission Rate Adjustments</strong> are modifications to the above Transmission rate, which tend to vary over the course of a year. These are included on your bill within Transmission charges. Calculated by multiplying usage by {data}.",
+				"Reliability Surcharge_description": "<strong>Reliability Surcharge</strong>: A nominal charge assessed by PG&E, which may instead be a small credit. This is included within your Transmission charges. Calculated by multiplying usage by {data}.",
+				"Distribution_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				"Public Purpose Programs_description": "<strong>Public Purpose Programs</strong>: Funds programs considered by law to benefit society, such as low-income ratepayer assistance and energy efficiency. Calculated by multiplying usage by {data}.",
+				"Nuclear Decommissioning_description": "<strong>Nuclear Decommissioning</strong>: A fee to restore nuclear plant sites to as near their original condition as possible once they are shut down. Calculated by multiplying usage by {data}.",
+				"DWR Bond_description": "<strong>DWR Bond</strong>: Recovers the cost of bonds issued by the Department of Water Resources (DWR) to purchase power to serve electric customers during the California energy crisis. DWR bond charges are collected on behalf of DWR and do not belong to PG&E. Calculated by multiplying usage by {data}.",
+				"CTC_description": "<strong>Competition Transition Charges</strong>: The charge for legacy electricity contracts, signed prior to 1998, that are in excess of a California Public Utility Commission - approved market price benchmark. Calculated by multiplying usage by {data}.",
+				"Energy Cost Recovery Amount_description": "<strong>Energy Cost Recovery Amount</strong> is the charge are imposed pursuant to law to help reduce the costs of financing PG&E’s emergence from bankruptcy. Calculated by multiplying usage by {data}.",
+				"NSGC_description": "<strong>New System Generation Charges</strong> are imposed by PG&E to help finance new energy resources. These are included on your bill within Distribution charges. Calculated by multiplying usage by {data}."
+			}
+		]
+	},
+	{
+		"rate_schedule": "RES-6 / E-6",
+		"schedule_enabled": false,
+		"rate_schedule_description": "RES-6 is a time-of-use rate schedule, where customers pay varying rates depending on the time of day. This schedule is common among customers who generate electricity via solar panels. If this is your rate schedule, please click this box to confirm.",
+		"level_two": [
+			{
+				"PCIA": 0.00607,
+				"franchiseFee": 0.00057
+			}
+		],
+		"level_three": [
+			{
+				"rateAbrs": "Trans,TRA,RS,PPP,ND,DWR Bond,CTC,ECRA,NSGC",
+				"Trans": 0.0147,
+				"TRA": 0.00237,
+				"RS": -0.00015,
+				"PPP": 0.01452,
+				"ND": 0.0005,
+				"DWR Bond": 0.00493,
+				"CTC": 0.0038,
+				"ECRA": -0.00019,
+				"NSGC": 0.00133
+			}
+		],
+		"time_period_info": [
+			{
+				"time_period_group": "Summer",
+				"T1_threshold": 341,
+				"T2_threshold": 102.3,
+				"T3_threshold": 238.7,
+				"number_in_group": 3
+			},
+			{
+				"time_period_group": "Winter",
+				"T1_threshold": 351,
+				"T2_threshold": 105.3,
+				"T3_threshold": 245.7,
+				"number_in_group": 2
+			}
+		],
+		"time_period_rates": [
+			{
+				"time_period": "Summer Peak",
+				"time_period_group": "Summer",
+				"CIA_T1_rate": -0.13333,
+				"CIA_T2_rate": -0.11523,
+				"CIA_T3_rate": 0.04571,
+				"CIA_T4_rate": 0.08571,
+				"distribution": 0.1715,
+				"mceRate": 0.193,
+				"pgeRate": 0.20720
+			},
+			{
+				"time_period": "Summer Partial Peak",
+				"time_period_group": "Summer",
+				"primary": true,
+				"CIA_T1_rate": -0.03506,
+				"CIA_T2_rate": -0.01696,
+				"CIA_T3_rate": 0.14398,
+				"CIA_T4_rate": 0.18398,
+				"distribution": 0.0686,
+				"mceRate": 0.08,
+				"pgeRate": 0.09993
+			},
+			{
+				"time_period": "Summer Off Peak",
+				"time_period_group": "Summer",
+				"CIA_T1_rate": -0.03189,
+				"CIA_T2_rate": -0.01379,
+				"CIA_T3_rate": 0.14715,
+				"CIA_T4_rate": 0.18715,
+				"distribution": 0.0343,
+				"mceRate": 0.054,
+				"pgeRate": 0.05652
+			},
+			{
+				"time_period": "Winter Peak",
+				"time_period_group": "Winter",
+				"CIA_T1_rate": -0.06028,
+				"CIA_T2_rate": -0.04218,
+				"CIA_T3_rate": 0.11876,
+				"CIA_T4_rate": 0.15876,
+				"distribution": 0.06591,
+				"mceRate": 0.075,
+				"pgeRate": 0.07385
+			},
+			{
+				"time_period": "Winter Off Peak",
+				"time_period_group": "Winter",
+				"CIA_T1_rate": -0.04324,
+				"CIA_T2_rate": -0.02414,
+				"CIA_T3_rate": 0.13580,
+				"CIA_T4_rate": 0.17580,
+				"distribution": 0.04394,
+				"mceRate": 0.054,
+				"pgeRate": 0.06244
+			}
+		],
+		"descriptions": [
+			{
+				"Summer Peak_mceRate_description": "This summer value is calculated by multiplying your usage by {data}",
+				"Summer Partial Peak_mceRate_description": "This summer value is calculated by multiplying your usage by {data}",
+				"Summer Off Peak_mceRate_description": "This summer value is calculated by multiplying your usage by {data}",
+				"Winter Peak_mceRate_description": "This winter value is calculated by multiplying your usage by {data}",
+				"Winter Off Peak_mceRate_description": "This winter value is calculated by multiplying your usage by {data}",
+				"Summer Peak_pgeRate_description": "This summer value is calculated by multiplying your usage by {data}",
+				"Summer Partial Peak_pgeRate_description": "This summer value is calculated by multiplying your usage by {data}",
+				"Summer Off Peak_pgeRate_description": "This summer value is calculated by multiplying your usage by {data}",
+				"Winter Peak_pgeRate_description": "This winter value is calculated by multiplying your usage by {data}",
+				"Winter Off Peak_pgeRate_description": "This winter value is calculated by multiplying your usage by {data}",
+				"Summer Peak_Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				"Summer Partial Peak_Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				"Summer Off Peak_Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				"Winter Peak_Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				"Winter Off Peak_Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				
+				"PCIA_description": "<strong>The Power Charge Indifference Adjustment</strong> is a PG&E-assessed fee which ensures that customers who purchase electricity (generation) from non-PG&E suppliers pay their share of generation costs acquired to serve them prior to their departure, unless otherwise exempt. Calculated by multiplying usage by {data}.",
+				"franchiseFee_description": "<strong>Franchise Fee</strong>: This surcharge pays cities and counties for the right to use public streets to provide utility services. PG&E collects the surcharges and passes them to cities and counties. This tax (if any) is charged as a percentage of your energy charges. Most government agencies are exempt from this fee. Calculated by multiplying usage by {data}.",
+				"CIA_T1_description": "<strong>CIA T1:</strong> Is calculated by the following formula: <br />{CIA_Formula}",
+				"CIA_T2_description": "<strong>CIA T2:</strong> Is calculated by the following formula: <br />{CIA_Formula}",
+				"CIA_T3_description": "<strong>CIA T3:</strong> Is calculated by the following formula: <br />{CIA_Formula}",
+				"CIA_T4_description": "<strong>Cost Incentive Adjustment</strong>: A component of your electric charges designed to reflect tiered residential pricing. Customers with low energy usage will typically see a credit, while customers with higher tier usage will be assessed a surcharge.<span class=\"info-arrow\"></span>",
+				"Trans_description": "<strong>Transmission:</strong> The cost of transmitting electricity from power plants, over high-voltage lines and towers, to the distribution system. Calculated by multiplying usage by {data}.",
+				"TRA_description": "<strong>Transmission Rate Adjustments</strong> are modifications to the above Transmission rate, which tend to vary over the course of a year. Calculated by multiplying usage by {data}.",
+				"RS_description": "<strong>Reliability Surcharge</strong>: A nominal charge assessed by PG&E, which may instead be a small credit. Calculated by multiplying usage by {data}.",
+				"PPP_description": "<strong>Public Purpose Programs</strong>: Funds programs considered by law to benefit society, such as low-income ratepayer assistance and energy efficiency. Calculated by multiplying usage by {data}.",
+				"ND_description": "<strong>Nuclear Decommissioning</strong>: A fee to restore nuclear plant sites to as near their original condition as possible once they are shut down. Calculated by multiplying usage by {data}.",
+				"DWR Bond_description": "<strong>DWR Bond</strong>: Recovers the cost of bonds issued by the Department of Water Resources (DWR) to purchase power to serve electric customers during the California energy crisis. DWR bond charges are collected on behalf of DWR and do not belong to PG&E. Calculated by multiplying usage by {data}.",
+				"CTC_description": "<strong>Competition Transition Charges</strong>: The charge for legacy electricity contracts, signed prior to 1998, that are in excess of a California Public Utility Commission - approved market price benchmark. Calculated by multiplying usage by {data}.",
+				"ECRA_description": "<strong>Energy Cost Recovery Amount</strong> is the charge are imposed pursuant to law to help reduce the costs of financing PG&E’s emergence from bankruptcy. Calculated by multiplying usage by {data}.",
+				"NSGC_description": "<strong>New System Generation Charges</strong> are imposed by PG&E to help finance new energy resources. Calculated by multiplying usage by {data}."
+			}
+		]
+	},
+	{
+		"rate_schedule": "RES-7 / E-7",
+		"schedule_enabled": false,
+		"rate_schedule_description": "RES-6 is a time-of-use rate schedule, where customers pay varying rates depending on the time of day. This schedule is common among customers who generate electricity via solar panels. If this is your rate schedule, please click this box to confirm.",
+		"level_two": [
+			{
+				"PCIA": 0.00607,
+				"franchiseFee": 0.00057,
+				"deliveryChargeMustBeGreaterThanZero": true
+			}
+		],
+		"level_three": [
+			{
+				"rateAbrs": "Trans,TRA,RS,PPP,ND,DWR Bond,CTC,ECRA,NSGC",
+				"Trans": 0.0147,
+				"TRA": 0.00237,
+				"RS": -0.00015,
+				"PPP": 0.01442,
+				"ND": 0.0005,
+				"DWR Bond": 0.00493,
+				"CTC": 0.0038,
+				"ECRA": -0.00019,
+				"NSGC": 0.00133
+			}
+		],
+		"time_period_info": [
+			{
+				"time_period_group": "Summer",
+				"T1_threshold": 341,
+				"T2_threshold": 102.3,
+				"T3_threshold": 238.7,
+				"number_in_group": 2
+			},
+			{
+				"time_period_group": "Winter",
+				"T1_threshold": 362.7,
+				"T2_threshold": 108.81,
+				"T3_threshold": 253.89,
+				"number_in_group": 2
+			}
+		],
+		"time_period_rates": [
+			{
+				"time_period": "Summer Peak",
+				"time_period_group": "Summer",
+				"CIA_T1_rate": -0.25827,
+				"CIA_T2_rate": -0.23956,
+				"CIA_T3_rate": -0.07882,
+				"CIA_T4_rate": -0.03882,
+				"distribution": 0.13391,
+				"mceRate": 0.37,
+				"pgeRate": 0.40516
+			},
+			{
+				"time_period": "Summer Off Peak",
+				"time_period_group": "Summer",
+				"CIA_T1_rate": -0.08216,
+				"CIA_T2_rate": -0.06346,
+				"CIA_T3_rate": 0.09728,
+				"CIA_T4_rate": 0.13728,
+				"distribution": 0.05356,
+				"mceRate": 0.05,
+				"pgeRate": 0.06848
+			},
+			{
+				"time_period": "Winter Peak",
+				"time_period_group": "Winter",
+				"CIA_T1_rate": -0.24292,
+				"CIA_T2_rate": -0.22422,
+				"CIA_T3_rate": -0.06348,
+				"CIA_T4_rate": -0.02348,
+				"distribution": 0.05981,
+				"mceRate": 0.22,
+				"pgeRate": 0.25566
+			},
+			{
+				"time_period": "Winter Off Peak",
+				"time_period_group": "Winter",
+				"CIA_T1_rate": -0.04181,
+				"CIA_T2_rate": -0.02311,
+				"CIA_T3_rate": 0.13763,
+				"CIA_T4_rate": 0.17763,
+				"distribution": 0.03987,
+				"mceRate": 0.05,
+				"pgeRate": 0.04533
+			}
+		],
+		"descriptions": [
+			{
+				"Summer Peak_mceRate_description": "This summer value is calculated by multiplying your usage by {data}",
+				"Summer Off Peak_mceRate_description": "This summer value is calculated by multiplying your usage by {data}",
+				"Winter Peak_mceRate_description": "This winter value is calculated by multiplying your usage by {data}",
+				"Winter Off Peak_mceRate_description": "This winter value is calculated by multiplying your usage by {data}",
+				"Summer Peak_pgeRate_description": "This summer value is calculated by multiplying your usage by {data}",
+				"Summer Off Peak_pgeRate_description": "This summer value is calculated by multiplying your usage by {data}",
+				"Winter Peak_pgeRate_description": "This winter value is calculated by multiplying your usage by {data}",
+				"Winter Off Peak_pgeRate_description": "This winter value is calculated by multiplying your usage by {data}",
+				"Summer Peak_Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				"Summer Off Peak_Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				"Winter Peak_Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				"Winter Off Peak_Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				
+				"PCIA_description": "<strong>The Power Charge Indifference Adjustment</strong> is a PG&E-assessed fee which ensures that customers who purchase electricity (generation) from non-PG&E suppliers pay their share of generation costs acquired to serve them prior to their departure, unless otherwise exempt. Calculated by multiplying usage by {data}.",
+				"franchiseFee_description": "<strong>Franchise Fee</strong>: This surcharge pays cities and counties for the right to use public streets to provide utility services. PG&E collects the surcharges and passes them to cities and counties. This tax (if any) is charged as a percentage of your energy charges. Most government agencies are exempt from this fee. Calculated by multiplying usage by {data}.",
+				"CIA_T1_description": "<strong>CIA T1:</strong> Is calculated by the following formula: <br />{CIA_Formula}",
+				"CIA_T2_description": "<strong>CIA T2:</strong> Is calculated by the following formula: <br />{CIA_Formula}",
+				"CIA_T3_description": "<strong>CIA T3:</strong> Is calculated by the following formula: <br />{CIA_Formula}",
+				"CIA_T4_description": "<strong>Cost Incentive Adjustment</strong>: A component of your electric charges designed to reflect tiered residential pricing. Customers with low energy usage will typically see a credit, while customers with higher tier usage will be assessed a surcharge.<span class=\"info-arrow\"></span>",
+				"Trans_description": "<strong>Transmission:</strong> The cost of transmitting electricity from power plants, over high-voltage lines and towers, to the distribution system. Calculated by multiplying usage by {data}.",
+				"TRA_description": "<strong>Transmission Rate Adjustments</strong> are modifications to the above Transmission rate, which tend to vary over the course of a year. Calculated by multiplying usage by {data}.",
+				"RS_description": "<strong>Reliability Surcharge</strong>: A nominal charge assessed by PG&E, which may instead be a small credit. Calculated by multiplying usage by {data}.",
+				"PPP_description": "<strong>Public Purpose Programs</strong>: Funds programs considered by law to benefit society, such as low-income ratepayer assistance and energy efficiency. Calculated by multiplying usage by {data}.",
+				"ND_description": "<strong>Nuclear Decommissioning</strong>: A fee to restore nuclear plant sites to as near their original condition as possible once they are shut down. Calculated by multiplying usage by {data}.",
+				"DWR Bond_description": "<strong>DWR Bond</strong>: Recovers the cost of bonds issued by the Department of Water Resources (DWR) to purchase power to serve electric customers during the California energy crisis. DWR bond charges are collected on behalf of DWR and do not belong to PG&E. Calculated by multiplying usage by {data}.",
+				"CTC_description": "<strong>Competition Transition Charges</strong>: The charge for legacy electricity contracts, signed prior to 1998, that are in excess of a California Public Utility Commission - approved market price benchmark. Calculated by multiplying usage by {data}.",
+				"ECRA_description": "<strong>Energy Cost Recovery Amount</strong> is the charge are imposed pursuant to law to help reduce the costs of financing PG&E’s emergence from bankruptcy. Calculated by multiplying usage by {data}.",
+				"NSGC_description": "<strong>New System Generation Charges</strong> are imposed by PG&E to help finance new energy resources. Calculated by multiplying usage by {data}."
+			}
+		]
+
+	},
+	{
+		"rate_schedule": "RES-8 / E-8",
+		"schedule_enabled": false,
+		"rate_schedule_description": "RES-8 is a time-of-use rate schedule, where customers pay varying rates depending on the time of day. This schedule is common among customers who generate electricity via solar panels. If this is your rate schedule, please click this box to confirm.",
+		"level_two": [
+			{
+				"PCIA": 0.00607,
+				"franchiseFee": 0.00057,
+				"deliveryChargeMustBeGreaterThanZero": true
+			}
+		],
+		"level_three": [
+			{
+				"rateAbrs": "Trans,TRA,RS,PPP,ND,DWR Bond,CTC,ECRA,NSGC",
+				"Trans": 0.0147,
+				"TRA": 0.00237,
+				"RS": -0.00015,
+				"PPP": 0.01543,
+				"ND": 0.0005,
+				"DWR Bond": 0.00493,
+				"CTC": 0.0038,
+				"ECRA": -0.00019,
+				"NSGC": 0.00133
+			}
+		],
+		"time_period_info": [
+			{
+				"time_period_group": "Summer",
+				"T1_threshold": 341,
+				"T2_threshold": 102.3,
+				"T3_threshold": 238.7,
+				"number_in_group": 1
+			},
+			{
+				"time_period_group": "Winter",
+				"T1_threshold": 362.7,
+				"T2_threshold": 108.81,
+				"T3_threshold": 253.89,
+				"number_in_group": 1
+			}
+		],
+		"time_period_rates": [
+			{
+				"time_period": "Summer",
+				"time_period_group": "Summer",
+				"CIA_T1_rate": -0.11476,
+				"CIA_T2_rate": -0.11467,
+				"CIA_T3_rate": 0.04598,
+				"CIA_T4_rate": 0.08598,
+				"distribution": 0.03856,
+				"mceRate": 0.074,
+				"pgeRate": 0.17016
+			},
+			{
+				"time_period": "Winter",
+				"time_period_group": "Winter",
+				"CIA_T1_rate": -0.08962,
+				"CIA_T2_rate": -0.08962,
+				"CIA_T3_rate": 0.07112,
+				"CIA_T4_rate": 0.11112,
+				"distribution": 0.02571,
+				"mceRate": 0.074,
+				"pgeRate": 0.10871
+			}
+		],
+		"descriptions": [
+			{
+				"Summer_mceRate_description": "This summer value is calculated by multiplying your usage by {data}",
+				"Winter_mceRate_description": "This winter value is calculated by multiplying your usage by {data}",
+				"Summer_pgeRate_description": "This value is calculated by multiplying your usage by {data}",
+				"Winter_pgeRate_description": "This value is calculated by multiplying your usage by {data}",
+				"PCIA_description": "<strong>The Power Charge Indifference Adjustment</strong> is a PG&E-assessed fee which ensures that customers who purchase electricity (generation) from non-PG&E suppliers pay their share of generation costs acquired to serve them prior to their departure, unless otherwise exempt. Calculated by multiplying usage by {data}.",
+				"franchiseFee_description": "<strong>Franchise Fee</strong>: This surcharge pays cities and counties for the right to use public streets to provide utility services. PG&E collects the surcharges and passes them to cities and counties. This tax (if any) is charged as a percentage of your energy charges. Most government agencies are exempt from this fee. Calculated by multiplying usage by {data}.",
+				"CIA_T1_description": "<strong>CIA T1:</strong> Is calculated by the following formula: <br />{CIA_Formula}",
+				"CIA_T2_description": "<strong>CIA T2:</strong> Is calculated by the following formula: <br />{CIA_Formula}",
+				"CIA_T3_description": "<strong>CIA T3:</strong> Is calculated by the following formula: <br />{CIA_Formula}",
+				"CIA_T4_description": "<strong>Cost Incentive Adjustment</strong>: A component of your electric charges designed to reflect tiered residential pricing. Customers with low energy usage will typically see a credit, while customers with higher tier usage will be assessed a surcharge.<span class=\"info-arrow\"></span>",
+				"Trans_description": "<strong>Transmission:</strong> The cost of transmitting electricity from power plants, over high-voltage lines and towers, to the distribution system. Calculated by multiplying usage by {data}.",
+				"TRA_description": "<strong>Transmission Rate Adjustments</strong> are modifications to the above Transmission rate, which tend to vary over the course of a year. Calculated by multiplying usage by {data}.",
+				"RS_description": "<strong>Reliability Surcharge</strong>: A nominal charge assessed by PG&E, which may instead be a small credit. Calculated by multiplying usage by {data}.",
+				"Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				"PPP_description": "<strong>Public Purpose Programs</strong>: Funds programs considered by law to benefit society, such as low-income ratepayer assistance and energy efficiency. Calculated by multiplying usage by {data}.",
+				"ND_description": "<strong>Nuclear Decommissioning</strong>: A fee to restore nuclear plant sites to as near their original condition as possible once they are shut down. Calculated by multiplying usage by {data}.",
+				"DWR Bond_description": "<strong>DWR Bond</strong>: Recovers the cost of bonds issued by the Department of Water Resources (DWR) to purchase power to serve electric customers during the California energy crisis. DWR bond charges are collected on behalf of DWR and do not belong to PG&E. Calculated by multiplying usage by {data}.",
+				"CTC_description": "<strong>Competition Transition Charges</strong>: The charge for legacy electricity contracts, signed prior to 1998, that are in excess of a California Public Utility Commission - approved market price benchmark. Calculated by multiplying usage by {data}.",
+				"ECRA_description": "<strong>Energy Cost Recovery Amount</strong> is the charge are imposed pursuant to law to help reduce the costs of financing PG&E’s emergence from bankruptcy. Calculated by multiplying usage by {data}.",
+				"NSGC_description": "<strong>New System Generation Charges</strong> are imposed by PG&E to help finance new energy resources. Calculated by multiplying usage by {data}."
+			}
+		]
+	},
+	{
+		"rate_schedule": "COM-1 / A-1",
+		"schedule_enabled": true,
+		"rate_schedule_description": "COM-1 (PG&E Equivalent A-1) is a basic rate schedule used by most small commercial customers. Rates under this schedule do not vary based on the time-of-day that electricity is used, but are seasonal rates which vary between Summer (May through October) and Winter (November through April) months. Some customers may be served by time-of-use variant of this schedule (typically denoted by PG&E as A1X, A1 TOU, HA1X), which has pricing based on which electricity is used.",
+		"level_two": [
+			{
+				"PCIA": 0.00486,
+				"franchiseFee": 0.00061
+			}
+		],
+		"level_three": [
+			
+			{
+				"rateAbrs": "Transmission,Transmission Rate Adjustment,Reliability Surcharge,Public Purpose Programs,Nuclear Decommissioning,DWR Bond,CTC,Energy Cost Recovery Amount,NSGC",
+				"Transmission": 0.01274,
+				"Transmission Rate Adjustment": 0.00240,
+				"Reliability Surcharge": -0.00014,
+				"Public Purpose Programs": 0.01539,
+				"Nuclear Decommissioning": 0.0005,
+				"DWR Bond": 0.00493,
+				"CTC": 0.00304,
+				"Energy Cost Recovery Amount": -0.00019,
+				"NSGC": 0.00124
+			}
+		],
+		"time_period_info": [
+			{
+				"time_period_group": "Summer",
+				"number_in_group": 1
+			},
+			{
+				"time_period_group": "Winter",
+				"number_in_group": 1
+			}
+		],
+		"time_period_rates": [
+			{
+				"time_period": "Summer",
+				"time_period_group": "Summer",
+				"distribution": 0.07349,
+				"mceRate": 0.089,
+				"pgeRate": 0.10106
+			},
+			{
+				"time_period": "Winter",
+				"time_period_group": "Winter",
+				"distribution": 0.04497,
+				"mceRate": 0.059,
+				"pgeRate": 0.06614
+			}
+		],
+		"descriptions": [
+			{
+				"Summer_mceRate_description": "Your MCE Generation Rate is your cost for actual generation of electricity, based on MCE's current generation rate of {data} per kilowatt-hour. This rate replaces what PG&E would otherwise charge for generation.",
+				"Winter_mceRate_description": "Your MCE Generation Rate is your cost for actual generation of electricity, based on MCE's current generation rate of {data} per kilowatt-hour. This rate replaces what PG&E would otherwise charge for generation.",
+				"Summer_pgeRate_description": "The PG&E Generation Rate is what a standard PG&E customer pays for generation, as a portion of their overall rates. The current generation rate is {data} per kilowatt-hour.", 
+				"Winter_pgeRate_description": "The PG&E Generation Rate is what a standard PG&E customer pays for generation, as a portion of their overall rates. The current generation rate is {data} per kilowatt-hour.", 
+				"PCIA_description": "<strong>The Power Charge Indifference Adjustment</strong> is a PG&E-assessed fee which ensures that customers who purchase electricity (generation) from non-PG&E suppliers pay their share of generation costs acquired to serve them prior to their departure, unless otherwise exempt. Calculated by multiplying usage by {data}.",
+				"franchiseFee_description": "<strong>Franchise Fee</strong>: This surcharge pays cities and counties for the right to use public streets to provide utility services. PG&E collects the surcharges and passes them to cities and counties. This tax (if any) is charged as a percentage of your energy charges. Most government agencies are exempt from this fee. Calculated by multiplying usage by {data}.",
+				"Summer_Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				"Transmission_description": "<strong>Transmission:</strong> The cost of transmitting electricity from power plants, over high-voltage lines and towers, to the distribution system. Calculated by multiplying usage by {data}.",
+				"Transmission Rate Adjustment_description": "<strong>Transmission Rate Adjustments</strong> are modifications to the above Transmission rate, which tend to vary over the course of a year. Calculated by multiplying usage by {data}.",
+				"Reliability Surcharge_description": "<strong>Reliability Surcharge</strong>: A nominal charge assessed by PG&E, which may instead be a small credit. Calculated by multiplying usage by {data}.",
+				"Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				"Public Purpose Programs_description": "<strong>Public Purpose Programs</strong>: Funds programs considered by law to benefit society, such as low-income ratepayer assistance and energy efficiency. Calculated by multiplying usage by {data}.",
+				"Nuclear Decommissioning_description": "<strong>Nuclear Decommissioning</strong>: A fee to restore nuclear plant sites to as near their original condition as possible once they are shut down. Calculated by multiplying usage by {data}.",
+				"DWR Bond_description": "<strong>DWR Bond</strong>: Recovers the cost of bonds issued by the Department of Water Resources (DWR) to purchase power to serve electric customers during the California energy crisis. DWR bond charges are collected on behalf of DWR and do not belong to PG&E. Calculated by multiplying usage by {data}.",
+				"CTC_description": "<strong>Competition Transition Charges</strong>: The charge for legacy electricity contracts, signed prior to 1998, that are in excess of a California Public Utility Commission - approved market price benchmark. Calculated by multiplying usage by {data}.",
+				"Energy Cost Recovery Amount_description": "<strong>Energy Cost Recovery Amount</strong> is the charge are imposed pursuant to law to help reduce the costs of financing PG&E’s emergence from bankruptcy. Calculated by multiplying usage by {data}.",
+				"NSGC_description": "<strong>New System Generation Charges</strong> are imposed by PG&E to help finance new energy resources. Calculated by multiplying usage by {data}."
+			}
+		]
+	},
+	{
+		"rate_schedule": "COM-1 TOU / A-1 TOU",
+		"schedule_enabled": true,
+		"rate_schedule_description": "COM-1 TOU (PG&E Equivalent A-1 TOU, A1X) is a basic rate schedule used by some small commercial customers. This rate is similar to COM-1, except that customers are charged based on time-of-use rates, which vary based on the time, day, and season that electricity is used.",
+		"level_two": [
+			{
+				"PCIA": 0.00486,
+				"franchiseFee": 0.00061
+			}
+		],
+		"level_three": [			
+			{
+				"rateAbrs": "Transmission,Transmission Rate Adjustment,Reliability Surcharge,Public Purpose Programs,Nuclear Decommissioning,DWR Bond,CTC,Energy Cost Recovery Amount,NSGC",
+				"Transmission": 0.01274,
+				"Transmission Rate Adjustment": 0.00240,
+				"Reliability Surcharge": -0.00014,
+				"Public Purpose Programs": 0.01539,
+				"Nuclear Decommissioning": 0.0005,
+				"DWR Bond": 0.00493,
+				"CTC": 0.00304,
+				"Energy Cost Recovery Amount": -0.00019,
+				"NSGC": 0.00124
+			}
+		],
+		"time_period_info": [
+			{
+				"time_period_group": "Summer",
+				"number_in_group": 3
+			},
+			{
+				"time_period_group": "Winter",
+				"number_in_group": 2
+			}
+		],
+		"time_period_rates": [
+			{
+				"time_period": "Summer Peak",
+				"time_period_group": "Summer",
+				"distribution": 0.07349,
+				"mceRate": 0.104,
+				"pgeRate": 0.1186
+			},
+			{
+				"time_period": "Summer Partial Peak",
+				"time_period_group": "Summer",
+				"primary": true,
+				"distribution": 0.07349,
+				"mceRate": 0.098,
+				"pgeRate": 0.11098
+			},
+			{
+				"time_period": "Summer Off Peak",
+				"time_period_group": "Summer",
+				"distribution": 0.07349,
+				"mceRate": 0.077,
+				"pgeRate": 0.08781
+			},
+			{
+				"time_period": "Winter Peak",
+				"time_period_group": "Winter",
+				"distribution": 0.04497,
+				"mceRate": 0.067,
+				"pgeRate": 0.07484
+			},
+			{
+				"time_period": "Winter Off Peak",
+				"time_period_group": "Winter",
+				"distribution": 0.04497,
+				"mceRate": 0.052,
+				"pgeRate": 0.05808
+			}
+		],
+		"descriptions": [
+			{
+				"Summer Peak_mceRate_description": "Your MCE Generation rate during Summer Peak periods, which includes all usage from 12:00 noon to 6:00 p.m. Monday through Friday, during the months of May through October. MCE's Summer Peak rate is {data} per kilowatt-hour, and replaces PG&E's Summer Peak rate in your bill calculation.",
+				"Summer Partial Peak_mceRate_description": "Your MCE Generation rate during Summer Partial-Peak periods, which includes all usage from 8:30 a.m. to 12:00 noon AND 6:00 p.m. to 9:30 p.m. Monday through Friday, during the months of May through October. MCE's Summer Partial-Peak rate is {data} per kilowatt-hour, and replaces PG&E's Summer Partial-peak rate in your bill calculation.",
+				"Summer Off Peak_mceRate_description": "Your MCE Generation rate during Summer Off-peak periods, which includes all usage from 9:30 p.m. to 8:30 a.m. Monday through Friday as well as all Saturday, Sunday, and holiday usage, during the months of May through October. MCE's Summer Off-peak rate is {data} per kilowatt-hour, and replaces PG&E's Summer Off-peak rate in your bill calculation.",
+				"Winter Peak_mceRate_description": "Your MCE Generation rate during Winter Partial-Peak periods, which includes all usage from 8:30 a.m. to 9:30 p.m. Monday through Friday, during the months of November through April. MCE's Winter Partial-Peak rate is {data} per kilowatt-hour, and replaces PG&E's Winter Partial-peak rate in your bill calculation.",
+				"Winter Off Peak_mceRate_description": "Your MCE Generation rate during Winter Off-peak periods, which includes all usage from 9:30 p.m. to 8:30 a.m. Monday through Friday as well as all Saturday, Sunday, and holiday usage, during the months of November through April. MCE's Winter Off-peak rate is {data} per kilowatt-hour, and replaces PG&E's Winter Off-peak rate in your bill calculation.",
+				"Summer Peak_pgeRate_description": "The PG&E Summer Peak rate is what a standard PG&E customer pays for Summer Peak generation as a portion of their overall rates. The Summer Peak period includes all usage from 8:30 a.m. to 12:00 noon AND 6:00 p.m. to 9:30 p.m. Monday through Friday, during the months of May through October. The current rate is {data} per kilowatt-hour.", 
+				"Summer Partial Peak_pgeRate_description": "The PG&E Summer Partial-peak rate is what a standard PG&E customer pays for Summer Partial-peak generation as a portion of their overall rates. The Summer Partial-peak period includes all usage from 8:30 a.m. to 12:00 noon AND 6:00 p.m. to 9:30 p.m. Monday through Friday, during the months of May through October. The current rate is {data} per kilowatt-hour.", 
+				"Summer Off Peak_pgeRate_description": "The PG&E Summer Off-peak rate is what a standard PG&E customer pays for Summer Off-peak generation as a portion of their overall rates. The Summer Off-peak period includes all usage from 9:30 p.m. to 8:30 a.m. Monday through Friday as well as all Saturday, Sunday, and holiday usage, during the months of May through October. The current rate is {data} per kilowatt-hour.", 
+				"Winter Peak_pgeRate_description": "The PG&E Winter Partial-peak rate is what a standard PG&E customer pays for Winter Partial-peak generation as a portion of their overall rates. The Winter Partial-peak period includes all usage from 8:30 a.m. to 9:30 p.m. Monday through Friday, during the months of November through April. The current rate is {data} per kilowatt-hour.", 
+				"Winter Off Peak_pgeRate_description": "The PG&E Winter Off-peak rate is what a standard PG&E customer pays for Winter Off-peak generation as a portion of their overall rates. The Winter Off-peak period includes all usage from 9:30 p.m. to 8:30 a.m. Monday through Friday as well as all Saturday, Sunday, and holiday usage, during the months of November through April. The current rate is {data} per kilowatt-hour.", 
+				"Summer Peak_Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				"Summer Partial Peak_Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				"Summer Off Peak_Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				"Winter Peak_Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				"Winter Off Peak_Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				
+				"PCIA_description": "<strong>The Power Charge Indifference Adjustment</strong> is a PG&E-assessed fee which ensures that customers who purchase electricity (generation) from non-PG&E suppliers pay their share of generation costs acquired to serve them prior to their departure, unless otherwise exempt. Calculated by multiplying usage by {data}.",
+				"franchiseFee_description": "<strong>Franchise Fee</strong>: This surcharge pays cities and counties for the right to use public streets to provide utility services. PG&E collects the surcharges and passes them to cities and counties. This tax (if any) is charged as a percentage of your energy charges. Most government agencies are exempt from this fee. Calculated by multiplying usage by {data}.",
+				"Transmission_description": "<strong>Transmission:</strong> The cost of transmitting electricity from power plants, over high-voltage lines and towers, to the distribution system. Calculated by multiplying usage by {data}.",
+				"Transmission Rate Adjustment_description": "<strong>Transmission Rate Adjustments</strong> are modifications to the above Transmission rate, which tend to vary over the course of a year. Calculated by multiplying usage by {data}.",
+				"Reliability Surcharge_description": "<strong>Reliability Surcharge</strong>: A nominal charge assessed by PG&E, which may instead be a small credit. Calculated by multiplying usage by {data}.",
+				"Public Purpose Programs_description": "<strong>Public Purpose Programs</strong>: Funds programs considered by law to benefit society, such as low-income ratepayer assistance and energy efficiency. Calculated by multiplying usage by {data}.",
+				"Nuclear Decommissioning_description": "<strong>Nuclear Decommissioning</strong>: A fee to restore nuclear plant sites to as near their original condition as possible once they are shut down. Calculated by multiplying usage by {data}.",
+				"DWR Bond_description": "<strong>DWR Bond</strong>: Recovers the cost of bonds issued by the Department of Water Resources (DWR) to purchase power to serve electric customers during the California energy crisis. DWR bond charges are collected on behalf of DWR and do not belong to PG&E. Calculated by multiplying usage by {data}.",
+				"CTC_description": "<strong>Competition Transition Charges</strong>: The charge for legacy electricity contracts, signed prior to 1998, that are in excess of a California Public Utility Commission - approved market price benchmark. Calculated by multiplying usage by {data}.",
+				"Energy Cost Recovery Amount_description": "<strong>Energy Cost Recovery Amount</strong> is the charge are imposed pursuant to law to help reduce the costs of financing PG&E’s emergence from bankruptcy. Calculated by multiplying usage by {data}.",
+				"NSGC_description": "<strong>New System Generation Charges</strong> are imposed by PG&E to help finance new energy resources. Calculated by multiplying usage by {data}."
+			}
+		]
+	},
+	{
+		"rate_schedule": "COM-6 / A-6",
+		"schedule_enabled": false,
+		"rate_schedule_description": "COM-6 is a time-of-use rate schedule, where customers pay varying rates depending on the time of day. This schedule is common among customers who generate electricity via solar panels. If this is your rate schedule, please click this box to confirm.",
+		"level_two": [
+			{
+				"PCIA": 0.00486,
+				"franchiseFee": 0.00061
+			}
+		],
+		"level_three": [
+			{
+				"rateAbrs": "Trans,TRA,RS,PPP,ND,DWR Bond,CTC,ECRA,NSGC",
+				"Trans": 0.01369,
+				"TRA": 0.00240,
+				"RS": -0.00014,
+				"PPP": 0.01387,
+				"ND": 0.0005,
+				"DWR Bond": 0.00493,
+				"CTC": 0.00304,
+				"ECRA": -0.00019,
+				"NSGC": 0.00124
+			}
+		],
+		"time_period_info": [
+			{
+				"time_period_group": "Summer",
+				"number_in_group": 3
+			},
+			{
+				"time_period_group": "Winter",
+				"number_in_group": 2
+			}
+		],
+		"time_period_rates": [
+			{
+				"time_period": "Summer Peak",
+				"time_period_group": "Summer",
+				"distribution": 0.19033,
+				"mceRate": 0.231,
+				"pgeRate": 0.26041
+			},
+			{
+				"time_period": "Summer Partial Peak",
+				"time_period_group": "Summer",
+				"distribution": 0.08736,
+				"mceRate": 0.091,
+				"pgeRate": 0.11394
+			},
+			{
+				"time_period": "Summer Off Peak",
+				"time_period_group": "Summer",
+				"distribution": 0.04595,
+				"mceRate": 0.045,
+				"pgeRate": 0.0559
+			},
+			{
+				"time_period": "Winter Peak",
+				"time_period_group": "Winter",
+				"distribution": 0.03519,
+				"mceRate": 0.071,
+				"pgeRate": 0.08432
+			},
+			{
+				"time_period": "Winter Off Peak",
+				"time_period_group": "Winter",
+				"distribution": 0.03745,
+				"mceRate": 0.046,
+				"pgeRate": 0.0544
+			}
+		],
+		"descriptions": [
+			{
+				"Summer Peak_mceRate_description": "This summer value is calculated by multiplying your usage by {data}",
+				"Summer Partial Peak_mceRate_description": "This summer value is calculated by multiplying your usage by {data}",
+				"Summer Off Peak_mceRate_description": "This summer value is calculated by multiplying your usage by {data}",
+				"Winter Peak_mceRate_description": "This winter value is calculated by multiplying your usage by {data}",
+				"Winter Off Peak_mceRate_description": "This winter value is calculated by multiplying your usage by {data}",
+				"Summer Peak_pgeRate_description": "This summer value is calculated by multiplying your usage by {data}",
+				"Summer Partial Peak_pgeRate_description": "This summer value is calculated by multiplying your usage by {data}",
+				"Summer Off Peak_pgeRate_description": "This summer value is calculated by multiplying your usage by {data}",
+				"Winter Peak_pgeRate_description": "This winter value is calculated by multiplying your usage by {data}",
+				"Winter Off Peak_pgeRate_description": "This winter value is calculated by multiplying your usage by {data}",
+				"Summer Peak_Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				"Summer Partial Peak_Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				"Summer Off Peak_Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				"Winter Peak_Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				"Winter Off Peak_Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				
+				"PCIA_description": "<strong>The Power Charge Indifference Adjustment</strong> is a PG&E-assessed fee which ensures that customers who purchase electricity (generation) from non-PG&E suppliers pay their share of generation costs acquired to serve them prior to their departure, unless otherwise exempt. Calculated by multiplying usage by {data}.",
+				"franchiseFee_description": "<strong>Franchise Fee</strong>: This surcharge pays cities and counties for the right to use public streets to provide utility services. PG&E collects the surcharges and passes them to cities and counties. This tax (if any) is charged as a percentage of your energy charges. Most government agencies are exempt from this fee. Calculated by multiplying usage by {data}.",
+				"Trans_description": "<strong>Transmission:</strong> The cost of transmitting electricity from power plants, over high-voltage lines and towers, to the distribution system. Calculated by multiplying usage by {data}.",
+				"TRA_description": "<strong>Transmission Rate Adjustments</strong> are modifications to the above Transmission rate, which tend to vary over the course of a year. Calculated by multiplying usage by {data}.",
+				"RS_description": "<strong>Reliability Surcharge</strong>: A nominal charge assessed by PG&E, which may instead be a small credit. Calculated by multiplying usage by {data}.",
+				"PPP_description": "<strong>Public Purpose Programs</strong>: Funds programs considered by law to benefit society, such as low-income ratepayer assistance and energy efficiency. Calculated by multiplying usage by {data}.",
+				"ND_description": "<strong>Nuclear Decommissioning</strong>: A fee to restore nuclear plant sites to as near their original condition as possible once they are shut down. Calculated by multiplying usage by {data}.",
+				"DWR Bond_description": "<strong>DWR Bond</strong>: Recovers the cost of bonds issued by the Department of Water Resources (DWR) to purchase power to serve electric customers during the California energy crisis. DWR bond charges are collected on behalf of DWR and do not belong to PG&E. Calculated by multiplying usage by {data}.",
+				"CTC_description": "<strong>Competition Transition Charges</strong>: The charge for legacy electricity contracts, signed prior to 1998, that are in excess of a California Public Utility Commission - approved market price benchmark. Calculated by multiplying usage by {data}.",
+				"ECRA_description": "<strong>Energy Cost Recovery Amount</strong> is the charge are imposed pursuant to law to help reduce the costs of financing PG&E’s emergence from bankruptcy. Calculated by multiplying usage by {data}.",
+				"NSGC_description": "<strong>New System Generation Charges</strong> are imposed by PG&E to help finance new energy resources. Calculated by multiplying usage by {data}."
+			}
+		]
+	},
+	{
+		"rate_schedule": "COM-10-A / A-10",
+		"schedule_enabled": false,
+		"rate_schedule_description": "COM-10-A is a time-of-use rate schedule, where customers pay varying rates depending on the time of day. This schedule is common among customers who generate electricity via solar panels. If this is your rate schedule, please click this box to confirm.",
+		"level_two": [
+			{
+				"PCIA": 0.00534,
+				"franchiseFee": 0.00063
+			}
+		],
+		"level_three": [
+			{
+				"rateAbrs": "TRA,PPP,ND,DWR Bond,CTC,ECRA,NSGC",
+				"TRA": 0.00243,
+				"PPP": 0.01389,
+				"ND": 0.0005,
+				"DWR Bond": 0.00493,
+				"CTC": 0.00334,
+				"ECRA": -0.00019,
+				"NSGC": 0.00113,
+				
+				"demand_rates": "Trans,RS,Dist Summer,Dist Winter",
+				"Trans": 4.5,
+				"RS": -0.05,
+				"Dist Summer": 5.26,
+				"Dist Winter": 1.92
+			}
+		],
+		"time_period_info": [
+			{
+				"time_period_group": "Summer",
+				"number_in_group": 1
+			},
+			{
+				"time_period_group": "Winter",
+				"number_in_group": 1
+			}
+		],
+		"time_period_rates": [
+			{
+				"time_period": "Summer",
+				"time_period_group": "Summer",
+				"distribution": 0.02676,
+				"Dist Summer": 5.26,
+				"mce_demand": 2.8,
+				"pge_demand": 3.63,
+				"mceRate": 0.087,
+				"pgeRate": 0.09145
+			},
+			{
+				"time_period": "Winter",
+				"time_period_group": "Winter",
+				"distribution": 0.0973,
+				"Dist Winter": 1.92,
+				"mce_demand": 0,
+				"pge_demand": 0,
+				"mceRate": 0.063,
+				"pgeRate": 0.07091
+			}
+		],
+		"descriptions": [
+			{
+				"Summer_mceRate_description": "This summer value is calculated by multiplying your usage by {data}",
+				"Winter_mceRate_description": "This winter value is calculated by multiplying your usage by {data}",
+				"Summer_pgeRate_description": "This value is calculated by multiplying your usage by {data}",
+				"Winter_pgeRate_description": "This value is calculated by multiplying your usage by {data}",
+				"mce_summer_demand_description": "This value is calculated by multiplying your usage by {data}",
+				"pge_summer_demand_description": "This value is calculated by multiplying your usage by {data}",
+				"mce_winter_demand_description": "This value is calculated by multiplying your usage by {data}",
+				"pge_winter_demand_description": "This value is calculated by multiplying your usage by {data}",
+				"PCIA_description": "<strong>The Power Charge Indifference Adjustment</strong> is a PG&E-assessed fee which ensures that customers who purchase electricity (generation) from non-PG&E suppliers pay their share of generation costs acquired to serve them prior to their departure, unless otherwise exempt. Calculated by multiplying usage by {data}.",
+				"Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				"franchiseFee_description": "<strong>Franchise Fee</strong>: This surcharge pays cities and counties for the right to use public streets to provide utility services. PG&E collects the surcharges and passes them to cities and counties. This tax (if any) is charged as a percentage of your energy charges. Most government agencies are exempt from this fee. Calculated by multiplying usage by {data}.",
+				"Summer_Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				"Trans_dmd_description": "<strong>Trans:</strong> Is calculated by your power usage in kWh * {data}<br />Trans in RES-1 stands for Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis orci sit amet ante tristique tristique. Sed sed congue lacus. Donec at risus ac nulla varius mattis. Praesent lacinia dolor non feugiat fermentum.",
+				"TRA_description": "<strong>Transmission Rate Adjustments</strong> are modifications to the above Transmission rate, which tend to vary over the course of a year. Calculated by multiplying usage by {data}.",
+				"RS_dmd_description": "<strong>Reliability Surcharge</strong>: A nominal charge assessed by PG&E, which may instead be a small credit. Calculated by multiplying usage by {data}.",
+				"dist_Summer_dmd_description": "Summer Distribution Demand: Is calculated by your max demand * {data}",
+				"PPP_description": "<strong>Public Purpose Programs</strong>: Funds programs considered by law to benefit society, such as low-income ratepayer assistance and energy efficiency. Calculated by multiplying usage by {data}.",
+				"ND_description": "<strong>Nuclear Decommissioning</strong>: A fee to restore nuclear plant sites to as near their original condition as possible once they are shut down. Calculated by multiplying usage by {data}.",
+				"DWR Bond_description": "<strong>DWR Bond</strong>: Recovers the cost of bonds issued by the Department of Water Resources (DWR) to purchase power to serve electric customers during the California energy crisis. DWR bond charges are collected on behalf of DWR and do not belong to PG&E. Calculated by multiplying usage by {data}.",
+				"CTC_description": "<strong>Competition Transition Charges</strong>: The charge for legacy electricity contracts, signed prior to 1998, that are in excess of a California Public Utility Commission - approved market price benchmark. Calculated by multiplying usage by {data}.",
+				"ECRA_description": "<strong>Energy Cost Recovery Amount</strong> is the charge are imposed pursuant to law to help reduce the costs of financing PG&E’s emergence from bankruptcy. Calculated by multiplying usage by {data}.",
+				"NSGC_description": "<strong>New System Generation Charges</strong> are imposed by PG&E to help finance new energy resources. Calculated by multiplying usage by {data}."
+			}
+		]
+	},
+	{
+		"rate_schedule": "COM-10-B / A-10 TOU",
+		"schedule_enabled": false,
+		"rate_schedule_description": "COM-10-A is a time-of-use rate schedule, where customers pay varying rates depending on the time of day. This schedule is common among customers who generate electricity via solar panels. If this is your rate schedule, please click this box to confirm.",
+		"level_two": [
+			{
+				"PCIA": 0.00534,
+				"franchiseFee": 0.00063
+			}
+		],
+		"level_three": [
+			{
+				"rateAbrs": "TRA,PPP,ND,DWR Bond,CTC,ECRA,NSGC",
+				"TRA": 0.00243,
+				"PPP": 0.01389,
+				"ND": 0.0005,
+				"DWR Bond": 0.00493,
+				"CTC": 0.00334,
+				"ECRA": -0.00019,
+				"NSGC": 0.00113,
+				
+				"demand_rates": "Trans,RS,Dist Summer,Dist Winter",
+				"Trans": 4.5,
+				"RS": -0.05,
+				"Dist Summer": 5.26,
+				"Dist Winter": 1.92
+			}
+		],
+		"time_period_info": [
+			{
+				"time_period_group": "Summer",
+				"number_in_group": 1
+			},
+			{
+				"time_period_group": "Winter",
+				"number_in_group": 1
+			}
+		],
+		"time_period_rates": [
+			{
+				"time_period": "Summer Peak",
+				"time_period_group": "Summer",
+				"distribution": 0.19033,
+				"mceRate": 0.231,
+				"pgeRate": 0.26041
+			},
+			{
+				"time_period": "Summer Partial Peak",
+				"time_period_group": "Summer",
+				"distribution": 0.08736,
+				"mceRate": 0.091,
+				"pgeRate": 0.11394
+			},
+			{
+				"time_period": "Summer Off Peak",
+				"time_period_group": "Summer",
+				"distribution": 0.04595,
+				"mceRate": 0.045,
+				"pgeRate": 0.0559
+			},
+			{
+				"time_period": "Winter Peak",
+				"time_period_group": "Winter",
+				"distribution": 0.03519,
+				"mceRate": 0.071,
+				"pgeRate": 0.08432
+			},
+			{
+				"time_period": "Winter Off Peak",
+				"time_period_group": "Winter",
+				"distribution": 0.03745,
+				"mceRate": 0.046,
+				"pgeRate": 0.0544
+			}
+		],
+		"descriptions": [
+			{
+				"Summer_mceRate_description": "This summer value is calculated by multiplying your usage by {data}",
+				"Winter_mceRate_description": "This winter value is calculated by multiplying your usage by {data}",
+				"Summer_pgeRate_description": "This value is calculated by multiplying your usage by {data}",
+				"Winter_pgeRate_description": "This value is calculated by multiplying your usage by {data}",
+				"mce_summer_demand_description": "This value is calculated by multiplying your usage by {data}",
+				"pge_summer_demand_description": "This value is calculated by multiplying your usage by {data}",
+				"mce_winter_demand_description": "This value is calculated by multiplying your usage by {data}",
+				"pge_winter_demand_description": "This value is calculated by multiplying your usage by {data}",
+				"PCIA_description": "<strong>The Power Charge Indifference Adjustment</strong> is a PG&E-assessed fee which ensures that customers who purchase electricity (generation) from non-PG&E suppliers pay their share of generation costs acquired to serve them prior to their departure, unless otherwise exempt. Calculated by multiplying usage by {data}.",
+				"Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				"franchiseFee_description": "<strong>Franchise Fee</strong>: This surcharge pays cities and counties for the right to use public streets to provide utility services. PG&E collects the surcharges and passes them to cities and counties. This tax (if any) is charged as a percentage of your energy charges. Most government agencies are exempt from this fee. Calculated by multiplying usage by {data}.",
+				"Summer_Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				"Trans_dmd_description": "<strong>Trans:</strong> Is calculated by your power usage in kWh * {data}<br />Trans in RES-1 stands for Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis orci sit amet ante tristique tristique. Sed sed congue lacus. Donec at risus ac nulla varius mattis. Praesent lacinia dolor non feugiat fermentum.",
+				"TRA_description": "<strong>Transmission Rate Adjustments</strong> are modifications to the above Transmission rate, which tend to vary over the course of a year. Calculated by multiplying usage by {data}.",
+				"RS_dmd_description": "<strong>Reliability Surcharge</strong>: A nominal charge assessed by PG&E, which may instead be a small credit. Calculated by multiplying usage by {data}.",
+				"dist_Summer_dmd_description": "Summer Distribution Demand: Is calculated by your max demand * {data}",
+				"PPP_description": "<strong>Public Purpose Programs</strong>: Funds programs considered by law to benefit society, such as low-income ratepayer assistance and energy efficiency. Calculated by multiplying usage by {data}.",
+				"ND_description": "<strong>Nuclear Decommissioning</strong>: A fee to restore nuclear plant sites to as near their original condition as possible once they are shut down. Calculated by multiplying usage by {data}.",
+				"DWR Bond_description": "<strong>DWR Bond</strong>: Recovers the cost of bonds issued by the Department of Water Resources (DWR) to purchase power to serve electric customers during the California energy crisis. DWR bond charges are collected on behalf of DWR and do not belong to PG&E. Calculated by multiplying usage by {data}.",
+				"CTC_description": "<strong>Competition Transition Charges</strong>: The charge for legacy electricity contracts, signed prior to 1998, that are in excess of a California Public Utility Commission - approved market price benchmark. Calculated by multiplying usage by {data}.",
+				"ECRA_description": "<strong>Energy Cost Recovery Amount</strong> is the charge are imposed pursuant to law to help reduce the costs of financing PG&E’s emergence from bankruptcy. Calculated by multiplying usage by {data}.",
+				"NSGC_description": "<strong>New System Generation Charges</strong> are imposed by PG&E to help finance new energy resources. Calculated by multiplying usage by {data}."
+			}
+		]
+	},
+	{
+		"rate_schedule": "COM-20 / E-20",
+		"schedule_enabled": false,
+		"rate_schedule_description": "COM-20 is a time-of-use rate schedule, where customers pay varying rates depending on the time of day. This schedule is common among customers who generate electricity via solar panels. If this is your rate schedule, please click this box to confirm.",
+		"level_two": [
+			{
+				"PCIA": 0.00534,
+				"franchiseFee": 0.00063
+			}
+		],
+		"level_three": [
+			{
+				"rateAbrs": "TRA,PPP,ND,DWR Bond,CTC,ECRA,NSGC",
+				"TRA": 0.00243,
+				"PPP": 0.01389,
+				"ND": 0.0005,
+				"DWR Bond": 0.00493,
+				"CTC": 0.00334,
+				"ECRA": -0.00019,
+				"NSGC": 0.00113,
+				
+				"demand_rates": "Trans,RS,Dist Summer,Dist Winter",
+				"Trans": 4.5,
+				"RS": -0.05,
+				"Dist Summer": 5.26,
+				"Dist Winter": 1.92
+			}
+		],
+		"time_period_info": [
+			{
+				"time_period_group": "Summer",
+				"number_in_group": 3
+			},
+			{
+				"time_period_group": "Winter",
+				"number_in_group": 2
+			}
+		],
+		"time_period_rates": [
+			{
+				"time_period": "Summer Peak",
+				"time_period_group": "Summer",
+				"mce_demand": 2.8,
+				"pge_demand": 3.63,
+				"mceRate": 0.107,
+				"pgeRate": 0.10631
+			},
+			{
+				"time_period": "Summer Partial Peak",
+				"time_period_group": "Summer",
+				"mce_demand": 2.8,
+				"pge_demand": 3.63,
+				"mceRate": 0.088,
+				"pgeRate": 0.09958
+			},
+			{
+				"time_period": "Summer Off Peak",
+				"time_period_group": "Summer",
+				"mce_demand": 2.8,
+				"pge_demand": 3.63,
+				"mceRate": 0.075,
+				"pgeRate": 0.07912
+			},
+			{
+				"time_period": "Winter Partial Peak",
+				"time_period_group": "Winter",
+				"mceRate": 0.068,
+				"pgeRate": 0.07992
+			},
+			{
+				"time_period": "Winter Off Peak",
+				"time_period_group": "Winter",
+				"mceRate": 0.063,
+				"pgeRate": 0.06237
+			}
+		],
+		"descriptions": [
+			{
+				"Summer_mceRate_description": "This summer value is calculated by multiplying your usage by {data}",
+				"Winter_mceRate_description": "This winter value is calculated by multiplying your usage by {data}",
+				"Summer_pgeRate_description": "This value is calculated by multiplying your usage by {data}",
+				"Winter_pgeRate_description": "This value is calculated by multiplying your usage by {data}",
+				"mce_summer_demand_description": "This value is calculated by multiplying your usage by {data}",
+				"pge_summer_demand_description": "This value is calculated by multiplying your usage by {data}",
+				"mce_winter_demand_description": "This value is calculated by multiplying your usage by {data}",
+				"pge_winter_demand_description": "This value is calculated by multiplying your usage by {data}",
+				"PCIA_description": "<strong>The Power Charge Indifference Adjustment</strong> is a PG&E-assessed fee which ensures that customers who purchase electricity (generation) from non-PG&E suppliers pay their share of generation costs acquired to serve them prior to their departure, unless otherwise exempt. Calculated by multiplying usage by {data}.",
+				"franchiseFee_description": "<strong>Franchise Fee</strong>: This surcharge pays cities and counties for the right to use public streets to provide utility services. PG&E collects the surcharges and passes them to cities and counties. This tax (if any) is charged as a percentage of your energy charges. Most government agencies are exempt from this fee. Calculated by multiplying usage by {data}.",
+				"Summer_Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				"Trans_description": "<strong>Transmission:</strong> The cost of transmitting electricity from power plants, over high-voltage lines and towers, to the distribution system. Calculated by multiplying usage by {data}.",
+				"TRA_description": "<strong>Transmission Rate Adjustments</strong> are modifications to the above Transmission rate, which tend to vary over the course of a year. Calculated by multiplying usage by {data}.",
+				"RS_description": "<strong>Reliability Surcharge</strong>: A nominal charge assessed by PG&E, which may instead be a small credit. Calculated by multiplying usage by {data}.",
+				"Dist_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				"dist_Summer_description": "<strong>Distribution</strong>: A charge for the lower-voltage system of power lines, poles, substations and transformers directly connecting PG&E’s distribution lines to homes and businesses. Calculated by multiplying usage by {data}.",
+				"PPP_description": "<strong>Public Purpose Programs</strong>: Funds programs considered by law to benefit society, such as low-income ratepayer assistance and energy efficiency. Calculated by multiplying usage by {data}.",
+				"ND_description": "<strong>Nuclear Decommissioning</strong>: A fee to restore nuclear plant sites to as near their original condition as possible once they are shut down. Calculated by multiplying usage by {data}.",
+				"DWR Bond_description": "<strong>DWR Bond</strong>: Recovers the cost of bonds issued by the Department of Water Resources (DWR) to purchase power to serve electric customers during the California energy crisis. DWR bond charges are collected on behalf of DWR and do not belong to PG&E. Calculated by multiplying usage by {data}.",
+				"CTC_description": "<strong>Competition Transition Charges</strong>: The charge for legacy electricity contracts, signed prior to 1998, that are in excess of a California Public Utility Commission - approved market price benchmark. Calculated by multiplying usage by {data}.",
+				"ECRA_description": "<strong>Energy Cost Recovery Amount</strong> is the charge are imposed pursuant to law to help reduce the costs of financing PG&E’s emergence from bankruptcy. Calculated by multiplying usage by {data}.",
+				"NSGC_description": "<strong>New System Generation Charges</strong> are imposed by PG&E to help finance new energy resources. Calculated by multiplying usage by {data}."
+			}
+		]
+	}
+]}
